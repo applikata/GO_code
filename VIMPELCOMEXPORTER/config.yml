@@ -1,0 +1,12 @@
+# Server configurations
+exporter:
+  log_path: "log/"
+  prefix: "UIVR"
+  port: 9100
+  grep_period: 5
+
+
+
+
+# Find Errors on template
+template_err: ["Dial list not found", "Error DB", "Error DB2", "Error DB4", "Error DB6"]
